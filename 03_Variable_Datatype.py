@@ -28,3 +28,5 @@ test = r or t
 print(test)
 test = r and t
 print(test)
+print(not(False))
+
