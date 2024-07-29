@@ -16,3 +16,6 @@ print(l1)
 
 print(l1.pop(3))  # remove enter index value and also return this value 
 print(l1)
+
+l1.remove(547)
+print(l1)
