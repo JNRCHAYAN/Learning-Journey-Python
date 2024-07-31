@@ -22,3 +22,17 @@ n = input("Enter Number 5 : ")
 s.add(int(n))
 print(s)
 
+#=========================
+d = {}
+
+name = input("Enter Friends name : ")
+lang = input ("Enter Your Language : ")
+d.update({name:lang})
+name = input("Enter Friends name : ")
+lang = input ("Enter Your Language : ")
+d.update({name:lang})
+name = input("Enter Friends name : ")
+lang = input ("Enter Your Language : ")
+d.update({name:lang})
+
+print(d)
