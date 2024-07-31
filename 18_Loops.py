@@ -26,3 +26,11 @@ print("\nFor Loop in list")
 l = [1,4,6,7,3,6,"Chayan",4]
 for i in l:
     print(i)
+
+print("\nFor Loop with else")
+
+l = [1,4,6,7,3,6,"Chayan",4]
+for i in l:
+    print(i)
+else:
+    print("Print all item done")
