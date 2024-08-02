@@ -21,3 +21,12 @@ goodday("Chayan" ,"Thank You")
 goodday("Roni","Thanks")
 a = goodday("Miltan" ,"Thank You")
 print(a)
+
+#Function with Default Argument
+
+def goodday(name, ending= "Thank you"):
+    print("Good day " +name+ " " +ending)
+
+goodday("Chayan")
+goodday("Roni" , "Nice to meet You")
+
