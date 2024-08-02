@@ -15,6 +15,9 @@ avg()
 def goodday(name, ending):
     print("Good Day "+name)
     print(ending)
+    return "Done"
 
 goodday("Chayan" ,"Thank You")
 goodday("Roni","Thanks")
+a = goodday("Miltan" ,"Thank You")
+print(a)
