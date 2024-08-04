@@ -6,4 +6,4 @@ def generateTable(n):
         f.write(table)
     
 for i in range(2,10):
-    generateTable(i)
+    generateTable(i) 
