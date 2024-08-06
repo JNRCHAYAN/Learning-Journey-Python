@@ -6,6 +6,10 @@ class Employee:
         print(f"The language is {self.language}. The salary is {self.salary}")
     def greet(self):
         print("Good Morning")
+    #   Without arrgumet we can use staticmethod 
+    @staticmethod  
+    def greet2():
+        print("Good Night")
 
 chayan = Employee()
 chayan.name = "Harry" # This is instance attribute
@@ -13,3 +17,4 @@ print(chayan.name ,chayan.language , chayan.salary)
 
 chayan.getinfo()  
 chayan.greet()
+chayan.greet2()
