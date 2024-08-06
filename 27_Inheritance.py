@@ -3,7 +3,10 @@ class employee:
     def show(self):
         print(f"The name is {self.name} and the salary is {self.salary}")
 
-class programmer(employee):
+class codder:
+    programming = "Python"
+
+class programmer(employee,codder):
     companyw = "IIC Company"
     def showLanguage(self):
         print(f"The name is {self.name} and the salary is {self.language}")
@@ -11,7 +14,7 @@ class programmer(employee):
 
 a = employee()
 b = programmer()
-print(b.company , b.companyw)
+print(b.company , b.companyw, b.programming)
 
 # We can also use multipal inhertance and mulitlevel inhertance 
 
