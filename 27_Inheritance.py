@@ -1,5 +1,7 @@
 class employee:
     company = "ITC"
+    def __init__(self) -> None:
+        print("Constructor of Emplpyee")
     def show(self):
         print(f"The name is {self.name} and the salary is {self.salary}")
 
@@ -12,7 +14,7 @@ class programmer(employee,codder):
         print(f"The name is {self.name} and the salary is {self.language}")
 
 
-a = employee()
+# a = employee()
 b = programmer()
 print(b.company , b.companyw, b.programming)
 
