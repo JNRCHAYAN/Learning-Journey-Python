@@ -8,4 +8,5 @@ print(sqlist)
 
 # Easy way to do this
 newsqlist = [i*i for i in mylist]
-print(newsqlist) 
+
+print(newsqlist)  
