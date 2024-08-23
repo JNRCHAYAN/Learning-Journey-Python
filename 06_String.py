@@ -11,6 +11,7 @@ print(len(name))
 namesort = name[-3:-1] 
 print(namesort)
 
+            
 namesort = name[1:5:2]
 print(namesort)
 
